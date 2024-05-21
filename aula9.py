@@ -9,3 +9,15 @@ print("Multiplicação: ", multiplicacao)
 
 divisao = multiplicacao / 2
 print('Divisão: ' ,divisao)
+
+exponenciacao = 2 ** 10
+print ('Exponenciação', exponenciacao)
+
+modulo = 25 % 5
+print('Módulo', modulo)
+
+print(10%8 == 0)
+print(16%8 == 0)
+print(10 % 2 == 0)
+print(15 % 2 == 0)
+
