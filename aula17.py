@@ -1,6 +1,6 @@
 #If / elif   / else
 #se/ se não se/ se não
-
+#AUla sobre o Interpretador do Python
 condicao1 = False
 condicao2 = False
 condicao3 = False
