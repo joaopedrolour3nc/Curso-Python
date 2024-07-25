@@ -1,5 +1,9 @@
 #If / elif   / else
 #se/ se não se/ se não
+# Else sempre é em ultimo caso
+# Else depende do If  
+ 
+
 
 entrada = input('Você quer entrar ou sair?: ')
 
