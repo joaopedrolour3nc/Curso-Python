@@ -17,6 +17,5 @@ Quando um for verdadeiro ele valida tudo como verdadeiro
 # Avaliação de Curto Circuito 
 
 
-
 senha = (0 or False or 0 or 'ABC')
 print("A senha é:",senha)
