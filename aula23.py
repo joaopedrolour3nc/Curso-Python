@@ -5,6 +5,7 @@ Oq é true vira false e ao contrário
 
 """
 
+
 senha = input("Senha: ")
 
 if not senha:
