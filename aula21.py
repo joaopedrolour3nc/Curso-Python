@@ -14,4 +14,5 @@ Se tiver um falso, tudo é false
 # else:
 #     print("Sair")
 
+
 print(True and True and True)
