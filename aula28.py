@@ -23,7 +23,7 @@ idade = input("Digite a sua idade: ")
 if nome == "" or idade == "":
     print("Erro para iniciar o programa, faltou alguma informação.")
 else:
-    print("Seu nome é", nome)
+    print(f"Seu nome é", {nome})
     print("Seu nome invertido é",nome[::-1])
     print("Seu nome tem(ou não)espaços",' ' in nome)
     print('A quantidade de letras do seu nome é de ',len(nome))
