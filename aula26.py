@@ -1,4 +1,4 @@
-## D + P duplica a linha
+## Ctrl + ' duplica a linha
 
 variavel = "ABC"
 print(f'{variavel}')
