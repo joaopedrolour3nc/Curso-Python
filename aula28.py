@@ -18,18 +18,19 @@ Se nada for digitado em nome ou idade:
 #-4321 
 
 nome = input("Digite o seu nome: ")
-idade = input("Digite a sua idade: ")
+idade = input("Digite sua idade: ")
 
-if nome == "" and idade == "":
-    print("Erro para iniciar o programa, faltou alguma informação.")
+if nome == '' or idade:
+    print("Erro, você deixou de digitar alguma informação")
 else:
-    print(f"Seu nome é", {nome})
-    print(f"Seu nome invertido é",{nome[::-1]})
-    if '' in nome:
-        print(f'Seu nome tem espaço')
+    print(f'Seu nome é {nome}')
+    print(f'Seu nome invertido é',{nome[::-1]})
+
+    if ' ' in nome:
+        print("Seu nome tem Espaço")
     else:
-        print(f'Seu nome não tem espaço')
-    print(f'A quantidade de letras do seu nome é de ',len(nome))
-    print(f'A primeira letra do seu nome é {nome[0:1:]}')
-    print(f'A Ultima letra do seu nome é {nome[-1]}')
-    
+        print("Seu nome não tem espaço")
+
+        print(f"A quantidad de Letras do seu nome é de", len(nome))
+        print(f"A Primeira Letra do seu nome é",{nome[0:1:]})
+        print(f"A Ultima Letra do seu nome é",{nome[-1]})
